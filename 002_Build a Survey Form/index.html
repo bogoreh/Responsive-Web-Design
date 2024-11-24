@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header id="title">
+        <h1>Survey Form</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div id="description">
+                <p>Let's us know how we can improve freeCodeCamp</p>
+            </div>
+            <form id="survey-form">
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>Name</label>
+                    </div>
+                    <div class="input-tab">
+                        <input type="text" name="Name">
+                    </div>
+                    <div>
+                        <div class="row-tab">
+                            <div class="label-tab">
+                                <label>Email</label>
+                            </div>
+                            <div class="input-tab">
+                                <input type="email" name="Email">
+                            </div>
+                        </div>
+                        <div class="row-tab">
+                            <div class="label-tab">
+                                <label>Age</label>
+                            </div>
+                            <div class="input-tab">
+                                <input type="number" name="Age">
+                            </div>
+                        </div>
+                        <div class="row-tab">
+                            <div class="label-tab">
+                                <label>Which option best describes your current role?</label>
+                            </div>
+                            <div class="select-tab">
+                                <select id="select-box">
+                                    <option>Student</option>
+                                    <option>job holder</option>
+                                    <option>Businessman</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+                            </div>
+                            <div class="input-tab">
+                                <div class="select-box">
+                                    <input type="radio" name="suggest" value="Definitely">
+                                    <label>Definitely</label>
+                                    <input type="radio" name="suggest">
+                                    <label>Maybe</label>
+                                    <input type="radio" name="suggest">
+                                    <label>Not sure</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="select-tab">
+                                <label id="select-box">
+                                    What do you like most in FCC?
+                                </label>
+                            </div>
+                            <div>
+                                <select id="select-box">
+                                    <option>Select an option</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label>Things that should be improved in the future (Check all that apply)</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="project" value="Font-end Project">
+                                <label>Front-end Developer</label>
+                                <input type="radio" name="project" value="Font-end Project">
+                                <label>Back-end Developer</label>
+                                <input type="radio" name="project" value="Font-end Project">
+                                <label>Database Developer</label>
+                            </div>
+                        </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
